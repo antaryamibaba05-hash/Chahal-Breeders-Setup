@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Golden speed halo / altitude ring -->
+        <path
+            android:pathData="M34,54 C34,42.95 42.95,34 54,34 C65.05,34 74,42.95 74,54 C74,65.05 65.05,74 54,74"
+            android:strokeWidth="2.5"
+            android:strokeColor="#F59E0B"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000" />
+        <path
+            android:pathData="M54,29 L54,34"
+            android:strokeWidth="2"
+            android:strokeColor="#F59E0B"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M79,54 L74,54"
+            android:strokeWidth="2"
+            android:strokeColor="#F59E0B"
+            android:strokeLineCap="round" />
+
+        <!-- Majestic Pigeon Silhouette soaring upwards -->
+        <!-- Left Wing -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,48 C49,42 39,36 27,37 C26,41 29,48 35,52 C41,56 48,56 52,55 Z" />
+        <!-- Left Wing Inner Feather -->
+        <path
+            android:fillColor="#E2E8F0"
+            android:pathData="M51,51 C45,46 36,42 28,43 C29,47 34,51 40,54 Z" />
+
+        <!-- Right Wing -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,48 C59,42 69,36 81,37 C82,41 79,48 73,52 C67,56 60,56 56,55 Z" />
+        <!-- Right Wing Inner Feather -->
+        <path
+            android:fillColor="#E2E8F0"
+            android:pathData="M57,51 C63,46 72,42 80,43 C79,47 74,51 68,54 Z" />
+
+        <!-- Pigeon Body, Chest & Head soaring up -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,36 C52,36 50.8,38 51,40 C52,43 51,48 49,54 C47,60 50,68 54,73 C58,68 61,60 59,54 C57,48 56,43 57,40 C57.2,38 56,36 54,36 Z" />
+
+        <!-- Sleek Beak & Crown in Gold -->
+        <path
+            android:fillColor="#F59E0B"
+            android:pathData="M54,33 L52.5,37 L55.5,37 Z" />
+
+        <!-- Fan Tail -->
+        <path
+            android:fillColor="#CBD5E1"
+            android:pathData="M54,71 L48,79 C51,80 57,80 60,79 Z" />
+
+        <!-- Center Pro Tracker Star -->
+        <path
+            android:fillColor="#3B82F6"
+            android:pathData="M54,47 L55.2,50.8 L59,50.8 L56,53 L57.1,56.8 L54,54.5 L50.9,56.8 L52,53 L49,50.8 L52.8,50.8 Z" />
+    </group>
+</vector>
